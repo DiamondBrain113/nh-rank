@@ -1,9 +1,9 @@
 import { MenuType } from "./page";
 
-type Props = {
+interface Props {
   setMenuType: React.Dispatch<React.SetStateAction<MenuType>>;
   menuType: MenuType;
-};
+}
 
 export default function PanelLeft({ menuType, setMenuType }: Props) {
   return (

@@ -1,12 +1,12 @@
 import { ProblemType } from "@/types/problem";
 
-interface props {
+interface Props {
   problem: ProblemType;
 }
 
-export default function ProblemContainer({ problem }: props) {
+export default function ProblemContainer({ problem }: Props) {
   return (
-    <div className="w-full h-full flex flex-col px-4 overflow-x-hidden overflow-y- pb-4">
+    <div className="w-full h-full flex flex-col px-4 overflow-x-hidden overflow-y-auto pb-4 max-[995px]:h-auto">
       <div className="min-h-16 flex items-center gap-2 font-bold">
         <span>{problem.rank.name}</span>
         <span>{problem.point}</span>

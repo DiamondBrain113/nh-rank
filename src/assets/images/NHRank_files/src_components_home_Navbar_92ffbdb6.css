@@ -1,0 +1,26 @@
+/* [project]/src/components/home/Navbar.css [app-client] (css) */
+.nav-item {
+  white-space: nowrap;
+  align-items: center;
+  width: auto;
+  height: 100%;
+  padding: 0 32px;
+  transition: filter .15s;
+  display: flex;
+}
+
+.nav-item:hover {
+  filter: brightness(.8);
+}
+
+li {
+  height: 100%;
+  display: flex;
+}
+
+.profile-item {
+  white-space: nowrap;
+  padding: 8px;
+}
+
+/*# sourceMappingURL=src_components_home_Navbar_92ffbdb6.css.map*/

@@ -1,0 +1,53 @@
+.editor-container {
+  container-type: inline-size;
+  container-name: editor-container;
+}
+
+.ant-dropdown-menu {
+  background-color: var(--ebony-clay) !important;
+  border-radius: 4px !important;
+  padding: 4px 0 !important;
+  box-shadow: 0 0 10px var(--color-steel-gray);
+}
+
+.ant-dropdown-menu-item {
+  padding: 0 !important;
+  height: 32px !important;
+}
+
+@media screen and (max-width: 995px) {
+  .resize-line {
+    display: none;
+  }
+
+  .ant-table {
+    background-color: var(--color-steel-gray) !important;
+  }
+
+  .ant-tooltip {
+    display: none;
+  }
+}
+
+@container editor-container (max-width: 765px) {
+  .minimize-btn {
+    display: flex;
+  }
+
+  .full-btn {
+    display: none;
+  }
+
+  .bottom-container {
+    flex-direction: column;
+  }
+
+  .stdin-container,
+  .others-container {
+    width: 100%;
+  }
+
+  .bottom-drag-width {
+    display: none;
+  }
+}

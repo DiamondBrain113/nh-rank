@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
+import { Table, Tooltip } from "antd";
+import { ColumnsType } from "antd/es/table";
 import { RiQrScan2Line } from "react-icons/ri";
 import { BsCodeSlash } from "react-icons/bs";
 import { CiCreditCard1 } from "react-icons/ci";
 import { MdOutlineScoreboard } from "react-icons/md";
 import { LuAlarmClock } from "react-icons/lu";
-import { Table, Tooltip } from "antd";
-import { ColumnsType } from "antd/es/table";
 
 interface Submission {
   key: number;
@@ -17,7 +17,7 @@ interface Submission {
 
 export default function HistoryContainer() {
   const [onlyMe, setOnlyMe] = useState(false);
-  const [curWidth, setcurWidth] = useState(0);
+  const [width, setWidth] = useState(0);
   const ref = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -26,7 +26,7 @@ export default function HistoryContainer() {
     const observer = new ResizeObserver((entries) => {
       for (const entry of entries) {
         const { width } = entry.contentRect;
-        setcurWidth(width);
+        setWidth(width);
       }
     });
 
@@ -39,14 +39,14 @@ export default function HistoryContainer() {
     {
       key: 1,
       id: "1",
-      name: "Nguyen Huy Hung",
+      name: "Nguyen Van A",
       point: 9,
       createdAt: "16/11/2025 10:25 PM",
     },
     {
       key: 2,
       id: "2",
-      name: "Le Tran Khanh Ly",
+      name: "Nguyen Van B",
       point: 10,
       createdAt: "16/11/2025 10:25 PM",
     },
@@ -60,21 +60,25 @@ export default function HistoryContainer() {
       width: 60,
       render: (val: number, record: Submission) => (
         <span
-          className={`${record.id === "1" ? "text-white" : "text-dodger-blue"}`}
+          className={`${
+            record.id === "1" ? "text-white cursor-pointer" : "text-dodger-blue"
+          }`}
         >
           {val}
         </span>
       ),
     },
     {
-      title: curWidth > 500 ? "Tên" : <CiCreditCard1 className="text-base" />,
+      title: width > 500 ? "Tên" : <CiCreditCard1 className="text-base" />,
       dataIndex: "name",
       key: "name",
       render: (val: number, record: Submission) => (
-        <div className={`h-full w-[${curWidth * 0.28}px] flex items-center`}>
+        <div className={`h-full w-[${width * 0.28}px] flex items-center`}>
           <span
             className={`${
-              record.id === "1" ? "text-white" : "text-dodger-blue"
+              record.id === "1"
+                ? "text-white cursor-pointer"
+                : "text-dodger-blue"
             } text-ellipsis overflow-hidden text-nowrap inline-block w-full`}
           >
             {val}
@@ -84,7 +88,7 @@ export default function HistoryContainer() {
     },
     {
       title:
-        curWidth > 500 ? "Điểm" : <MdOutlineScoreboard className="text-base" />,
+        width > 500 ? "Điểm" : <MdOutlineScoreboard className="text-base" />,
       dataIndex: "point",
       key: "point",
       showSorterTooltip: { target: "full-header" },
@@ -94,7 +98,9 @@ export default function HistoryContainer() {
       width: 80,
       render: (val: number, record: Submission) => (
         <span
-          className={`${record.id === "1" ? "text-white" : "text-dodger-blue"}`}
+          className={`${
+            record.id === "1" ? "text-white cursor-pointer" : "text-dodger-blue"
+          }`}
         >
           {val}
         </span>
@@ -103,11 +109,7 @@ export default function HistoryContainer() {
     {
       title: (
         <div className="ant-table-column-title">
-          {curWidth > 500 ? (
-            "Thời gian"
-          ) : (
-            <LuAlarmClock className="text-base" />
-          )}
+          {width > 500 ? "Thời gian" : <LuAlarmClock className="text-base" />}
         </div>
       ),
       dataIndex: "createdAt",
@@ -118,10 +120,10 @@ export default function HistoryContainer() {
       render: (val: string, record: Submission) => (
         <div
           className={`ant-table-column-title ${
-            record.id === "1" ? "text-white" : "text-dodger-blue"
+            record.id === "1" ? "text-white cursor-pointer" : "text-dodger-blue"
           }`}
         >
-          {(curWidth > 500 && <span className="font-medium">{val}</span>) || (
+          {(width > 500 && <span className="font-medium">{val}</span>) || (
             <Tooltip placement="top" title={val}>
               <LuAlarmClock className="cursor-pointer text-base" />
             </Tooltip>
@@ -133,7 +135,7 @@ export default function HistoryContainer() {
 
   return (
     <div
-      className="flex flex-col h-full w-full overflow-x-hidden overflow-y-auto"
+      className="flex flex-col h-full w-full overflow-x-hidden overflow-y-auto max-[995px]:h-auto"
       ref={ref}
     >
       <div className="flex w-full px-4 py-2 h-auto justify-between">

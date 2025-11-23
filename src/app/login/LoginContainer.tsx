@@ -6,10 +6,10 @@ import PanelRight from "./PanelRight";
 import LoginForm from "./LoginForm";
 import RegisterForm from "./RegisterForm";
 
-type Props = {
+interface Props {
   menuType: MenuType;
   setMenuType: React.Dispatch<React.SetStateAction<MenuType>>;
-};
+}
 
 export default function LoginContainer({ menuType, setMenuType }: Props) {
   return (

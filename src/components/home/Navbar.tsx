@@ -11,11 +11,11 @@ import "@/app/globals.css";
 import { Logo } from "@/assets/images";
 import { useUser } from "@/context/UserContext";
 
-interface props {
+interface Props {
   collapse?: boolean;
 }
 
-export default function Navbar({ collapse = false }: props) {
+export default function Navbar({ collapse = false }: Props) {
   const { user } = useUser();
 
   const [switchProfile, setSwitchProfile] = useState(false);

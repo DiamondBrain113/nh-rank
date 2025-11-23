@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRef } from "react";
+import { use, useEffect, useRef } from "react";
 import { BiHome } from "react-icons/bi";
 
 import Navbar from "@/components/home/Navbar";
@@ -9,7 +9,22 @@ import EditorContainer from "@/app/problems/[slug]/EditorContainer";
 import SidebarContainer from "@/app/problems/[slug]/SidebarContainer";
 import { ProblemType, Rank } from "@/types/problem";
 
-export default function Problem() {
+export default function Problem({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = use(params);
+  useEffect(() => {
+    async function getData() {
+      const res = await fetch(`/api/problems/${slug}`, {
+        method: "GET",
+      });
+      console.log(res);
+    }
+    getData();
+  }, []);
+
   const containerRef = useRef<HTMLDivElement>(null);
   const leftRef = useRef<HTMLDivElement>(null);
   const rightRef = useRef<HTMLDivElement>(null);
@@ -52,13 +67,12 @@ export default function Problem() {
 Yêu cầu: Không thay đổi thứ tự của các ký tự trong xâu S. Hãy đếm số cách lấy ra một số ký tự trong xâu S và chèn vào trước nó các dấu ‘+′ hoặc ‘−‘ để thu được số M cho trước?`,
     inputDescription: `1234
 6`,
-    outputDescription: `4
-Giải thích`,
+    outputDescription: `4`,
     topic: {
       id: "topic",
       name: "Topic",
     },
-    testcases: [{ input: "https://", output: "https://" }],
+    testcases: [{ input: "1234\n6", output: "4" }],
     point: 10,
     rank: Rank.NORMAL,
     comments: [
@@ -71,7 +85,7 @@ Giải thích`,
   };
 
   return (
-    <div className="h-screen w-full flex flex-col pt-10">
+    <div className="h-screen w-full flex flex-col pt-10 overflow-hidden max-[995px]:h-auto">
       <Navbar collapse={true} />
       <div className="h-10 w-full bg-ebony-clay flex gap-x-1 items-center py-2 px-4 border-b border-solid border-gray-700">
         <span>
@@ -87,18 +101,18 @@ Giải thích`,
         / <span className="font-bold uppercase">{problem.title}</span>
       </div>
       <div
-        className="w-full h-full overflow-hidden flex relative select-none"
+        className="w-full h-full overflow-hidden flex relative select-none max-[995px]:flex-col max-[995px]:h-auto max-[995px]:overflow-auto"
         ref={containerRef}
       >
         <SidebarContainer ref={leftRef} problem={problem} />
         <div
-          className="h-full w-1.5 bg-gray-700 cursor-col-resize flex items-center justify-center"
+          className="h-full w-1.5 bg-gray-700 cursor-col-resize flex items-center justify-center overflow-hidden resize-line"
           ref={dragRef}
           onMouseDown={handleMouseDown}
         >
           <div className="h-10 w-[1.6px] rounded-lg bg-gray-400"></div>
         </div>
-        <EditorContainer ref={rightRef} />
+        <EditorContainer ref={rightRef} problem={problem} />
       </div>
     </div>
   );

@@ -1,0 +1,2918 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/src/assets/images/logo.png (static in ecmascript, tag client)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/logo.6b923948.png");}),
+"[project]/src/assets/images/logo.png.mjs { IMAGE => \"[project]/src/assets/images/logo.png (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png__$28$static__in__ecmascript$2c$__tag__client$29$__ = __turbopack_context__.i("[project]/src/assets/images/logo.png (static in ecmascript, tag client)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
+    width: 920,
+    height: 920,
+    blurWidth: 8,
+    blurHeight: 8,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAA00lEQVR42gHIADf/APPz8/Ly8vDy8OPv5+/y8PPz8/Ly8vPz8wDy8vLa7eGO3atX0YSI26bW7N7y8vLy8vIAzerYWNGEZ9SPSc55OstvUtCAy+rX8vLyAKjivTLJaXXXmWzWk3PXlzDIZ6fivPPz8wCm4rwxyWh42JuR3q1/2qAvyGek4rvz8/MAuebKPMtwT899U9CAd9iaOcput+bI8/PzAOzx7q/kwlfRhDrLb2HTiqnjvuvx7fLy8gDz8/Py8vLc7uO15cbZ7eDx8vLy8vLz8/NWpZGbOF5aAwAAAABJRU5ErkJggg=="
+};
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/assets/images/index.ts [app-client] (ecmascript) <locals>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/src/assets/images/logo.png.mjs { IMAGE => "[project]/src/assets/images/logo.png (static in ecmascript, tag client)" } [app-client] (structured image object with data url, ecmascript)');
+;
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/assets/images/logo.png.mjs { IMAGE => \"[project]/src/assets/images/logo.png (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript) <export default as Logo>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Logo",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/src/assets/images/logo.png.mjs { IMAGE => "[project]/src/assets/images/logo.png (static in ecmascript, tag client)" } [app-client] (structured image object with data url, ecmascript)');
+}),
+"[project]/src/components/home/Navbar.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Navbar
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/src/assets/images/index.ts [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__$3c$export__default__as__Logo$3e$__ = __turbopack_context__.i('[project]/src/assets/images/logo.png.mjs { IMAGE => "[project]/src/assets/images/logo.png (static in ecmascript, tag client)" } [app-client] (structured image object with data url, ecmascript) <export default as Logo>');
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$context$2f$UserContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/context/UserContext.tsx [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+function Navbar(t0) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(24);
+    if ($[0] !== "aea27c66d64a89a33a70bef07786204523ef9c4ed588d6298ffab00bb48175ea") {
+        for(let $i = 0; $i < 24; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "aea27c66d64a89a33a70bef07786204523ef9c4ed588d6298ffab00bb48175ea";
+    }
+    const { collapse: t1 } = t0;
+    const collapse = t1 === undefined ? false : t1;
+    const { user } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$context$2f$UserContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useUser"])();
+    const [switchProfile, setSwitchProfile] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const t2 = `${!collapse ? "h-[76px]" : "h-10"} w-screen fixed top-0 left-0 z-50 flex items-center justify-between bg-ebony-clay gap-x-10 nav-container`;
+    const t3 = `${!collapse ? "8px 32px" : "2px 16px"}`;
+    let t4;
+    if ($[1] !== t3) {
+        t4 = {
+            padding: t3
+        };
+        $[1] = t3;
+        $[2] = t4;
+    } else {
+        t4 = $[2];
+    }
+    const t5 = `${!collapse ? "w-12 h-12" : "w-8 h-8"} rounded-full`;
+    let t6;
+    if ($[3] !== t5) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            href: "/",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$logo$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__$3c$export__default__as__Logo$3e$__["Logo"],
+                className: t5,
+                alt: "logo",
+                loading: "eager"
+            }, void 0, false, {
+                fileName: "[project]/src/components/home/Navbar.tsx",
+                lineNumber: 46,
+                columnNumber: 25
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/home/Navbar.tsx",
+            lineNumber: 46,
+            columnNumber: 10
+        }, this);
+        $[3] = t5;
+        $[4] = t6;
+    } else {
+        t6 = $[4];
+    }
+    let t7;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+            className: "flex items-center w-fit h-full font-bold",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/",
+                        className: "nav-item",
+                        children: "TRANG CHỦ"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/home/Navbar.tsx",
+                        lineNumber: 54,
+                        columnNumber: 71
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/home/Navbar.tsx",
+                    lineNumber: 54,
+                    columnNumber: 67
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/problems",
+                        className: "nav-item",
+                        children: "BÀI TẬP"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/home/Navbar.tsx",
+                        lineNumber: 54,
+                        columnNumber: 132
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/home/Navbar.tsx",
+                    lineNumber: 54,
+                    columnNumber: 128
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/submissions",
+                        className: "nav-item",
+                        children: "BÀI NỘP"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/home/Navbar.tsx",
+                        lineNumber: 54,
+                        columnNumber: 199
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/home/Navbar.tsx",
+                    lineNumber: 54,
+                    columnNumber: 195
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/home/Navbar.tsx",
+            lineNumber: 54,
+            columnNumber: 10
+        }, this);
+        $[5] = t7;
+    } else {
+        t7 = $[5];
+    }
+    const t8 = `${!collapse ? "w-12 h-12" : "w-8 h-8"} rounded-full border border-gray-900 cursor-pointer transition duration-150 hover:brightness-[.8]`;
+    let t9;
+    if ($[6] !== switchProfile) {
+        t9 = ({
+            "Navbar[<Image>.onClick]": ()=>setSwitchProfile(!switchProfile)
+        })["Navbar[<Image>.onClick]"];
+        $[6] = switchProfile;
+        $[7] = t9;
+    } else {
+        t9 = $[7];
+    }
+    let t10;
+    if ($[8] !== t8 || $[9] !== t9 || $[10] !== user.avatarUrl) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-fit h-fit",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                className: t8,
+                src: user.avatarUrl,
+                width: 64,
+                height: 64,
+                alt: "avatar",
+                onClick: t9
+            }, void 0, false, {
+                fileName: "[project]/src/components/home/Navbar.tsx",
+                lineNumber: 72,
+                columnNumber: 40
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/home/Navbar.tsx",
+            lineNumber: 72,
+            columnNumber: 11
+        }, this);
+        $[8] = t8;
+        $[9] = t9;
+        $[10] = user.avatarUrl;
+        $[11] = t10;
+    } else {
+        t10 = $[11];
+    }
+    let t11;
+    if ($[12] !== switchProfile) {
+        t11 = switchProfile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].ul, {
+            className: "absolute grid grid-rows-2 items-center justify-center top-[110%] right-0 rounded-md bg-ebony-clay h-fit w-fit p-1 border border-solid border-gray-700",
+            initial: {
+                y: -10,
+                opacity: 0
+            },
+            animate: {
+                y: 0,
+                opacity: 1
+            },
+            exit: {
+                y: -10,
+                opacity: 0
+            },
+            transition: {
+                duration: 0.18,
+                ease: "easeInOut"
+            },
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        className: "profile-item",
+                        href: "/profiles",
+                        children: "Tài khoản"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/home/Navbar.tsx",
+                        lineNumber: 94,
+                        columnNumber: 12
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/home/Navbar.tsx",
+                    lineNumber: 94,
+                    columnNumber: 8
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        className: "profile-item",
+                        href: "/auth/logout",
+                        children: "Đăng xuất"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/home/Navbar.tsx",
+                        lineNumber: 94,
+                        columnNumber: 85
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/home/Navbar.tsx",
+                    lineNumber: 94,
+                    columnNumber: 81
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/home/Navbar.tsx",
+            lineNumber: 82,
+            columnNumber: 28
+        }, this);
+        $[12] = switchProfile;
+        $[13] = t11;
+    } else {
+        t11 = $[13];
+    }
+    let t12;
+    if ($[14] !== t11) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+            children: t11
+        }, void 0, false, {
+            fileName: "[project]/src/components/home/Navbar.tsx",
+            lineNumber: 102,
+            columnNumber: 11
+        }, this);
+        $[14] = t11;
+        $[15] = t12;
+    } else {
+        t12 = $[15];
+    }
+    let t13;
+    if ($[16] !== t10 || $[17] !== t12) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "relative h-fit w-fit",
+            children: [
+                t10,
+                t12
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/home/Navbar.tsx",
+            lineNumber: 110,
+            columnNumber: 11
+        }, this);
+        $[16] = t10;
+        $[17] = t12;
+        $[18] = t13;
+    } else {
+        t13 = $[18];
+    }
+    let t14;
+    if ($[19] !== t13 || $[20] !== t2 || $[21] !== t4 || $[22] !== t6) {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: t2,
+            style: t4,
+            children: [
+                t6,
+                t7,
+                t13
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/home/Navbar.tsx",
+            lineNumber: 119,
+            columnNumber: 11
+        }, this);
+        $[19] = t13;
+        $[20] = t2;
+        $[21] = t4;
+        $[22] = t6;
+        $[23] = t14;
+    } else {
+        t14 = $[23];
+    }
+    return t14;
+}
+_s(Navbar, "JIEVmk1VQnOpOOZqGBaxsZabXmc=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$context$2f$UserContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useUser"]
+    ];
+});
+_c = Navbar;
+var _c;
+__turbopack_context__.k.register(_c, "Navbar");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/lib/draculaTheme.ts [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "draculaHighlight",
+    ()=>draculaHighlight,
+    "draculaHighlightStyle",
+    ()=>draculaHighlightStyle,
+    "draculaTheme",
+    ()=>draculaTheme
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@codemirror/view/dist/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@lezer/highlight/dist/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$language$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@codemirror/language/dist/index.js [app-client] (ecmascript)");
+;
+;
+;
+const draculaTheme = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorView"].theme({
+    "&": {
+        color: "#f8f8f0",
+        backgroundColor: "var(--steel-gray)",
+        height: "100%",
+        fontSize: "18px"
+    },
+    ".cm-content": {
+        caretColor: "#f8f8f0"
+    },
+    ".cm-cursor, .cm-dropCursor": {
+        borderLeftColor: "#f8f8f0"
+    },
+    "&.cm-focused .cm-selectionBackground, .cm-selectionBackground, ::selection": {
+        backgroundColor: "#44475a"
+    },
+    ".cm-gutters": {
+        backgroundColor: "#282a36",
+        color: "rgb(144, 145, 148)",
+        border: "none"
+    },
+    ".cm-activeLine": {
+        backgroundColor: "#232436"
+    },
+    ".cm-lineNumbers": {
+        backgroundColor: "var(--ebony-clay)",
+        color: "#6d8a88",
+        fontSize: "18px",
+        minWidth: "40px"
+    },
+    ".cm-activeLineGutter": {
+        color: "#f8f8f2",
+        backgroundColor: "#ffffff10"
+    },
+    ".cm-selectionBackground": {
+        backgroundColor: "#44475a80 !important"
+    }
+}, {
+    dark: true
+});
+const draculaHighlightStyle = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$language$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["HighlightStyle"].define([
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].comment,
+        color: "#6272a4",
+        fontStyle: "italic"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].lineComment,
+        color: "#6272a4",
+        fontStyle: "italic"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].blockComment,
+        color: "#6272a4",
+        fontStyle: "italic"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].docComment,
+        color: "#6272a4",
+        fontStyle: "italic"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].keyword,
+        color: "#ff79c6"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].controlKeyword,
+        color: "#ff79c6"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].typeName,
+        color: "#8be9fd"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].className,
+        color: "#8be9fd"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].namespace,
+        color: "#8be9fd"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].function(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].variableName),
+        color: "#50fa7b"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].definition(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].function(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].variableName)),
+        color: "#50fa7b"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].standard(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].variableName),
+        color: "#50fa7b"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].variableName,
+        color: "#f8f8f2"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].definition(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].variableName),
+        color: "#f8f8f2"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].propertyName,
+        color: "#ffb86c"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].string,
+        color: "#f1fa8c"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].character,
+        color: "#f1fa8c"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].special(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].string),
+        color: "#f1fa8c"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].number,
+        color: "#bd93f9"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].float,
+        color: "#bd93f9"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].bool,
+        color: "#ff79c6"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].operator,
+        color: "#ff79c6"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].operatorKeyword,
+        color: "#ff79c6"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].punctuation,
+        color: "#f8f8f2"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].bracket,
+        color: "#f8f8f2"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].paren,
+        color: "#f8f8f2"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].meta,
+        color: "#f1fa8c"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].macroName,
+        color: "#f1fa8c"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].attributeName,
+        color: "#f1fa8c"
+    },
+    {
+        tag: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lezer$2f$highlight$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tags"].invalid,
+        color: "#ff5555",
+        background: "#ff555522"
+    }
+]);
+const draculaHighlight = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$language$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["syntaxHighlighting"])(draculaHighlightStyle);
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/app/problems/[slug]/CodeEditor.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "CodeEditor",
+    ()=>CodeEditor,
+    "PlainEditor",
+    ()=>PlainEditor
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$state$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@codemirror/state/dist/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@codemirror/view/dist/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$commands$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@codemirror/commands/dist/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$lang$2d$cpp$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@codemirror/lang-cpp/dist/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$search$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@codemirror/search/dist/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$draculaTheme$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/draculaTheme.ts [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+function CodeEditor(t0) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(7);
+    if ($[0] !== "5ca3376ef2cf065820b3048590c1c9ef8b1a831a454e4c2238d709eb03345923") {
+        for(let $i = 0; $i < 7; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "5ca3376ef2cf065820b3048590c1c9ef8b1a831a454e4c2238d709eb03345923";
+    }
+    const { value: t1, onChange, editable: t2 } = t0;
+    const value = t1 === undefined ? "" : t1;
+    const editable = t2 === undefined ? false : t2;
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const viewRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    let t3;
+    if ($[1] !== editable || $[2] !== onChange || $[3] !== value) {
+        t3 = ({
+            "CodeEditor[useEffect()]": ()=>{
+                if (!ref.current) {
+                    return;
+                }
+                const updateListener = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorView"].updateListener.of({
+                    "CodeEditor[useEffect() > EditorView.updateListener.of()]": (update)=>{
+                        if (update.docChanged) {
+                            const text = update.state.doc.toString();
+                            onChange?.(text);
+                        }
+                    }
+                }["CodeEditor[useEffect() > EditorView.updateListener.of()]"]);
+                const state = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$state$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorState"].create({
+                    doc: value,
+                    extensions: [
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$lang$2d$cpp$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cpp"])(),
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$search$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["search"])(),
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["lineNumbers"])(),
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["highlightSpecialChars"])(),
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["highlightActiveLine"])(),
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["keymap"].of([
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$commands$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["indentWithTab"],
+                            ...__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$commands$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultKeymap"],
+                            ...__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$search$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["searchKeymap"]
+                        ]),
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorView"].lineWrapping,
+                        __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$draculaTheme$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["draculaTheme"],
+                        __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$draculaTheme$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["draculaHighlight"],
+                        updateListener,
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorView"].editable.of(editable)
+                    ]
+                });
+                const view = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorView"]({
+                    state,
+                    parent: ref.current
+                });
+                viewRef.current = view;
+                return ()=>view.destroy();
+            }
+        })["CodeEditor[useEffect()]"];
+        $[1] = editable;
+        $[2] = onChange;
+        $[3] = value;
+        $[4] = t3;
+    } else {
+        t3 = $[4];
+    }
+    let t4;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t4 = [];
+        $[5] = t4;
+    } else {
+        t4 = $[5];
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t3, t4);
+    let t5;
+    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            ref: ref,
+            className: "w-full h-full flex-1 font-jetbrains overflow-x-hidden overflow-y-auto"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/CodeEditor.tsx",
+            lineNumber: 77,
+            columnNumber: 10
+        }, this);
+        $[6] = t5;
+    } else {
+        t5 = $[6];
+    }
+    return t5;
+}
+_s(CodeEditor, "rr4iwB8oE2dGsDNqYGB2ecuL8eg=");
+_c = CodeEditor;
+function PlainEditor(t0) {
+    _s1();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(7);
+    if ($[0] !== "5ca3376ef2cf065820b3048590c1c9ef8b1a831a454e4c2238d709eb03345923") {
+        for(let $i = 0; $i < 7; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "5ca3376ef2cf065820b3048590c1c9ef8b1a831a454e4c2238d709eb03345923";
+    }
+    const { value: t1, onChange, editable: t2 } = t0;
+    const value = t1 === undefined ? "" : t1;
+    const editable = t2 === undefined ? false : t2;
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const viewRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    let t3;
+    if ($[1] !== editable || $[2] !== onChange || $[3] !== value) {
+        t3 = ({
+            "PlainEditor[useEffect()]": ()=>{
+                if (!ref.current) {
+                    return;
+                }
+                const updateListener = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorView"].updateListener.of({
+                    "PlainEditor[useEffect() > EditorView.updateListener.of()]": (update)=>{
+                        if (update.docChanged) {
+                            const text = update.state.doc.toString();
+                            onChange?.(text);
+                        }
+                    }
+                }["PlainEditor[useEffect() > EditorView.updateListener.of()]"]);
+                const state = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$state$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorState"].create({
+                    doc: value,
+                    extensions: [
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$search$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["search"])(),
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["lineNumbers"])(),
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["highlightSpecialChars"])(),
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["highlightActiveLine"])(),
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["keymap"].of([
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$commands$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["indentWithTab"],
+                            ...__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$commands$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultKeymap"],
+                            ...__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$search$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["searchKeymap"]
+                        ]),
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorView"].lineWrapping,
+                        __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$draculaTheme$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["draculaTheme"],
+                        __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$draculaTheme$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["draculaHighlight"],
+                        updateListener,
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorView"].editable.of(editable)
+                    ]
+                });
+                const view = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$codemirror$2f$view$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorView"]({
+                    state,
+                    parent: ref.current
+                });
+                viewRef.current = view;
+                return ()=>view.destroy();
+            }
+        })["PlainEditor[useEffect()]"];
+        $[1] = editable;
+        $[2] = onChange;
+        $[3] = value;
+        $[4] = t3;
+    } else {
+        t3 = $[4];
+    }
+    let t4;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t4 = [];
+        $[5] = t4;
+    } else {
+        t4 = $[5];
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t3, t4);
+    let t5;
+    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            ref: ref,
+            className: "w-full h-full flex-1 font-jetbrains overflow-x-hidden overflow-y-auto"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/CodeEditor.tsx",
+            lineNumber: 145,
+            columnNumber: 10
+        }, this);
+        $[6] = t5;
+    } else {
+        t5 = $[6];
+    }
+    return t5;
+}
+_s1(PlainEditor, "rr4iwB8oE2dGsDNqYGB2ecuL8eg=");
+_c1 = PlainEditor;
+var _c, _c1;
+__turbopack_context__.k.register(_c, "CodeEditor");
+__turbopack_context__.k.register(_c1, "PlainEditor");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/app/problems/[slug]/BottomContainer.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>BottomContainer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$CodeEditor$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/problems/[slug]/CodeEditor.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+;
+;
+;
+function BottomContainer(t0) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(35);
+    if ($[0] !== "b5f6967598f02d2cc909cac4ef665d246a365d4828a5570359e32d54f6c8f1d9") {
+        for(let $i = 0; $i < 35; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "b5f6967598f02d2cc909cac4ef665d246a365d4828a5570359e32d54f6c8f1d9";
+    }
+    const { problem } = t0;
+    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const leftRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const rightRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const dragRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const isDragging = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(false);
+    const [panelState, setPanelState] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("stdout");
+    let handleMouseDown;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        handleMouseDown = ({
+            "BottomContainer[handleMouseDown]": (e)=>{
+                e.preventDefault();
+                isDragging.current = true;
+                document.addEventListener("mousemove", handleMouseMove);
+                document.addEventListener("mouseup", handleMouseUp);
+            }
+        })["BottomContainer[handleMouseDown]"];
+        const handleMouseMove = {
+            "BottomContainer[handleMouseMove]": (e_0)=>{
+                if (!isDragging.current || !containerRef.current || !leftRef.current || !rightRef.current) {
+                    return;
+                }
+                const containerWidth = containerRef.current.offsetWidth;
+                const newLeftWidth = e_0.clientX - containerRef.current.getBoundingClientRect().left;
+                leftRef.current.style.width = `${newLeftWidth}px`;
+                rightRef.current.style.width = `${containerWidth - newLeftWidth - 2}px`;
+            }
+        }["BottomContainer[handleMouseMove]"];
+        const handleMouseUp = {
+            "BottomContainer[handleMouseUp]": ()=>{
+                isDragging.current = false;
+                document.removeEventListener("mousemove", handleMouseMove);
+                document.removeEventListener("mouseup", handleMouseUp);
+            }
+        }["BottomContainer[handleMouseUp]"];
+        $[1] = handleMouseDown;
+    } else {
+        handleMouseDown = $[1];
+    }
+    let t1;
+    if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex w-full h-8 bg-ebony-clay border-b border-solid border-gray-700",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TabItem, {
+                title: "STDIN",
+                active: true,
+                onClick: _BottomContainerTabItemOnClick
+            }, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+                lineNumber: 59,
+                columnNumber: 95
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 59,
+            columnNumber: 10
+        }, this);
+        $[2] = t1;
+    } else {
+        t1 = $[2];
+    }
+    let t2;
+    if ($[3] !== problem.testcases[0].input) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-[50%] h-full flex flex-col",
+            ref: leftRef,
+            children: [
+                t1,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$CodeEditor$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PlainEditor"], {
+                    value: problem.testcases[0].input,
+                    editable: true
+                }, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+                    lineNumber: 66,
+                    columnNumber: 74
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 66,
+            columnNumber: 10
+        }, this);
+        $[3] = problem.testcases[0].input;
+        $[4] = t2;
+    } else {
+        t2 = $[4];
+    }
+    let t3;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-full w-1.5 bg-gray-700 cursor-col-resize flex items-center justify-center",
+            ref: dragRef,
+            onMouseDown: handleMouseDown,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "h-10 w-[1.6px] rounded-lg bg-gray-400"
+            }, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+                lineNumber: 74,
+                columnNumber: 147
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 74,
+            columnNumber: 10
+        }, this);
+        $[5] = t3;
+    } else {
+        t3 = $[5];
+    }
+    const t4 = panelState === "stdout";
+    let t5;
+    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+        t5 = ({
+            "BottomContainer[<TabItem>.onClick]": ()=>setPanelState("stdout")
+        })["BottomContainer[<TabItem>.onClick]"];
+        $[6] = t5;
+    } else {
+        t5 = $[6];
+    }
+    let t6;
+    if ($[7] !== t4) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TabItem, {
+            title: "STDOUT",
+            active: t4,
+            onClick: t5
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 91,
+            columnNumber: 10
+        }, this);
+        $[7] = t4;
+        $[8] = t6;
+    } else {
+        t6 = $[8];
+    }
+    const t7 = panelState === "stderr";
+    let t8;
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+        t8 = ({
+            "BottomContainer[<TabItem>.onClick]": ()=>{
+                setPanelState("stderr");
+            }
+        })["BottomContainer[<TabItem>.onClick]"];
+        $[9] = t8;
+    } else {
+        t8 = $[9];
+    }
+    let t9;
+    if ($[10] !== t7) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TabItem, {
+            title: "STDERR",
+            active: t7,
+            onClick: t8
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 111,
+            columnNumber: 10
+        }, this);
+        $[10] = t7;
+        $[11] = t9;
+    } else {
+        t9 = $[11];
+    }
+    const t10 = panelState === "compile";
+    let t11;
+    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = ({
+            "BottomContainer[<TabItem>.onClick]": ()=>{
+                setPanelState("compile");
+            }
+        })["BottomContainer[<TabItem>.onClick]"];
+        $[12] = t11;
+    } else {
+        t11 = $[12];
+    }
+    let t12;
+    if ($[13] !== t10) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TabItem, {
+            title: "COMPILE",
+            active: t10,
+            onClick: t11
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 131,
+            columnNumber: 11
+        }, this);
+        $[13] = t10;
+        $[14] = t12;
+    } else {
+        t12 = $[14];
+    }
+    const t13 = panelState === "message";
+    let t14;
+    if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
+        t14 = ({
+            "BottomContainer[<TabItem>.onClick]": ()=>{
+                setPanelState("message");
+            }
+        })["BottomContainer[<TabItem>.onClick]"];
+        $[15] = t14;
+    } else {
+        t14 = $[15];
+    }
+    let t15;
+    if ($[16] !== t13) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TabItem, {
+            title: "MESSAGE",
+            active: t13,
+            onClick: t14
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 151,
+            columnNumber: 11
+        }, this);
+        $[16] = t13;
+        $[17] = t15;
+    } else {
+        t15 = $[17];
+    }
+    const t16 = panelState === "testcase";
+    let t17;
+    if ($[18] === Symbol.for("react.memo_cache_sentinel")) {
+        t17 = ({
+            "BottomContainer[<TabItem>.onClick]": ()=>{
+                setPanelState("testcase");
+            }
+        })["BottomContainer[<TabItem>.onClick]"];
+        $[18] = t17;
+    } else {
+        t17 = $[18];
+    }
+    let t18;
+    if ($[19] !== t16) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TabItem, {
+            title: "TESTCASE",
+            active: t16,
+            onClick: t17
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 171,
+            columnNumber: 11
+        }, this);
+        $[19] = t16;
+        $[20] = t18;
+    } else {
+        t18 = $[20];
+    }
+    let t19;
+    if ($[21] !== t12 || $[22] !== t15 || $[23] !== t18 || $[24] !== t6 || $[25] !== t9) {
+        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex w-full h-8 bg-ebony-clay border-b border-solid border-gray-700 overflow-y-hidden overflow-x-auto",
+            children: [
+                t6,
+                t9,
+                t12,
+                t15,
+                t18
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 179,
+            columnNumber: 11
+        }, this);
+        $[21] = t12;
+        $[22] = t15;
+        $[23] = t18;
+        $[24] = t6;
+        $[25] = t9;
+        $[26] = t19;
+    } else {
+        t19 = $[26];
+    }
+    let t20;
+    if ($[27] !== panelState) {
+        t20 = panelState === "stdout" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$CodeEditor$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PlainEditor"], {}, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 191,
+            columnNumber: 38
+        }, this) || panelState === "stderr" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$CodeEditor$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PlainEditor"], {}, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 191,
+            columnNumber: 84
+        }, this) || panelState === "compile" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$CodeEditor$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PlainEditor"], {}, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 191,
+            columnNumber: 131
+        }, this) || panelState === "message" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$CodeEditor$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PlainEditor"], {}, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 191,
+            columnNumber: 178
+        }, this) || /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: "a"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 191,
+            columnNumber: 197
+        }, this);
+        $[27] = panelState;
+        $[28] = t20;
+    } else {
+        t20 = $[28];
+    }
+    let t21;
+    if ($[29] !== t19 || $[30] !== t20) {
+        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-[50%] h-full flex flex-col",
+            ref: rightRef,
+            children: [
+                t19,
+                t20
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 199,
+            columnNumber: 11
+        }, this);
+        $[29] = t19;
+        $[30] = t20;
+        $[31] = t21;
+    } else {
+        t21 = $[31];
+    }
+    let t22;
+    if ($[32] !== t2 || $[33] !== t21) {
+        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-full h-full flex",
+            ref: containerRef,
+            children: [
+                t2,
+                t3,
+                t21
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 208,
+            columnNumber: 11
+        }, this);
+        $[32] = t2;
+        $[33] = t21;
+        $[34] = t22;
+    } else {
+        t22 = $[34];
+    }
+    return t22;
+}
+_s(BottomContainer, "nrcR6LhNECy1/tHu51lsrbd455k=");
+_c = BottomContainer;
+function _BottomContainerTabItemOnClick() {}
+const TabItem = (t0)=>{
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
+    if ($[0] !== "b5f6967598f02d2cc909cac4ef665d246a365d4828a5570359e32d54f6c8f1d9") {
+        for(let $i = 0; $i < 5; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "b5f6967598f02d2cc909cac4ef665d246a365d4828a5570359e32d54f6c8f1d9";
+    }
+    const { title, active, onClick } = t0;
+    const t1 = `w-[100] py-1 px-4 flex items-center justify-center border-solid border-dodger-blue  uppercase text-sm font-bold cursor-pointer transition-colors duration-200 ${active ? "bg-steel-gray text-white border-t-3" : "text-gray-500"}`;
+    let t2;
+    if ($[1] !== onClick || $[2] !== t1 || $[3] !== title) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: t1,
+            onClick: onClick,
+            children: title
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/BottomContainer.tsx",
+            lineNumber: 234,
+            columnNumber: 10
+        }, ("TURBOPACK compile-time value", void 0));
+        $[1] = onClick;
+        $[2] = t1;
+        $[3] = title;
+        $[4] = t2;
+    } else {
+        t2 = $[4];
+    }
+    return t2;
+};
+_c1 = TabItem;
+var _c, _c1;
+__turbopack_context__.k.register(_c, "BottomContainer");
+__turbopack_context__.k.register(_c1, "TabItem");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/app/problems/[slug]/EditorContainer.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>EditorContainer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$BottomContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/problems/[slug]/BottomContainer.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$CodeEditor$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/problems/[slug]/CodeEditor.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+;
+;
+;
+;
+;
+function EditorContainer(t0) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(14);
+    if ($[0] !== "b33898da758b608f079a586fb39bc48b9a4db7baae5e47f0eb7e2eccdf5a1d43") {
+        for(let $i = 0; $i < 14; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "b33898da758b608f079a586fb39bc48b9a4db7baae5e47f0eb7e2eccdf5a1d43";
+    }
+    const { ref, problem } = t0;
+    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const topRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const bottomRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const dragRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const isDragging = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(false);
+    const [editable] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
+    let handleMouseDown;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        handleMouseDown = ({
+            "EditorContainer[handleMouseDown]": (e)=>{
+                e.preventDefault();
+                isDragging.current = true;
+                document.addEventListener("mousemove", handleMouseMove);
+                document.addEventListener("mouseup", handleMouseUp);
+            }
+        })["EditorContainer[handleMouseDown]"];
+        const handleMouseMove = {
+            "EditorContainer[handleMouseMove]": (e_0)=>{
+                if (!isDragging.current || !containerRef.current || !topRef.current || !bottomRef.current) {
+                    return;
+                }
+                const containerHeight = containerRef.current.offsetHeight;
+                const newHeight = e_0.clientY - containerRef.current.getBoundingClientRect().top;
+                topRef.current.style.height = `${newHeight}px`;
+                bottomRef.current.style.height = `${containerHeight - newHeight - 2}px`;
+            }
+        }["EditorContainer[handleMouseMove]"];
+        const handleMouseUp = {
+            "EditorContainer[handleMouseUp]": ()=>{
+                isDragging.current = false;
+                document.removeEventListener("mousemove", handleMouseMove);
+                document.removeEventListener("mouseup", handleMouseUp);
+            }
+        }["EditorContainer[handleMouseUp]"];
+        $[1] = handleMouseDown;
+    } else {
+        handleMouseDown = $[1];
+    }
+    let t1;
+    if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-full h-[34px] border-b border-solid bg-ebony-clay border-gray-700 p-1 flex justify-end",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                className: "px-3 flex items-center w-fit justify-center bg-dodger-blue rounded-2xl h-full cursor-pointer hover:brightness-75 transition-all duration-300",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPlay"], {}, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/EditorContainer.tsx",
+                    lineNumber: 63,
+                    columnNumber: 277
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/EditorContainer.tsx",
+                lineNumber: 63,
+                columnNumber: 116
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/EditorContainer.tsx",
+            lineNumber: 63,
+            columnNumber: 10
+        }, this);
+        $[2] = t1;
+    } else {
+        t1 = $[2];
+    }
+    let t2;
+    if ($[3] !== editable) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-full h-auto flex-1",
+            ref: topRef,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$CodeEditor$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CodeEditor"], {
+                editable: editable,
+                value: "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n  \n  cout << \"Hello World\" << endl;\n  return 0;\n}\n        "
+            }, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/EditorContainer.tsx",
+                lineNumber: 70,
+                columnNumber: 61
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/EditorContainer.tsx",
+            lineNumber: 70,
+            columnNumber: 10
+        }, this);
+        $[3] = editable;
+        $[4] = t2;
+    } else {
+        t2 = $[4];
+    }
+    let t3;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-1.5 w-full bg-gray-700 cursor-row-resize flex items-center justify-center",
+            ref: dragRef,
+            onMouseDown: handleMouseDown,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-10 h-[1.6px] rounded-lg bg-gray-400"
+            }, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/EditorContainer.tsx",
+                lineNumber: 78,
+                columnNumber: 147
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/EditorContainer.tsx",
+            lineNumber: 78,
+            columnNumber: 10
+        }, this);
+        $[5] = t3;
+    } else {
+        t3 = $[5];
+    }
+    let t4;
+    if ($[6] !== problem) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-full h-[30%] flex",
+            ref: bottomRef,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$BottomContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                problem: problem
+            }, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/EditorContainer.tsx",
+                lineNumber: 85,
+                columnNumber: 63
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/EditorContainer.tsx",
+            lineNumber: 85,
+            columnNumber: 10
+        }, this);
+        $[6] = problem;
+        $[7] = t4;
+    } else {
+        t4 = $[7];
+    }
+    let t5;
+    if ($[8] !== t2 || $[9] !== t4) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-1 h-full w-full flex-col",
+            ref: containerRef,
+            children: [
+                t2,
+                t3,
+                t4
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/EditorContainer.tsx",
+            lineNumber: 93,
+            columnNumber: 10
+        }, this);
+        $[8] = t2;
+        $[9] = t4;
+        $[10] = t5;
+    } else {
+        t5 = $[10];
+    }
+    let t6;
+    if ($[11] !== ref || $[12] !== t5) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-full flex-1 bg-steel-gray overflow-auto flex flex-col",
+            ref: ref,
+            children: [
+                t1,
+                t5
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/EditorContainer.tsx",
+            lineNumber: 102,
+            columnNumber: 10
+        }, this);
+        $[11] = ref;
+        $[12] = t5;
+        $[13] = t6;
+    } else {
+        t6 = $[13];
+    }
+    return t6;
+}
+_s(EditorContainer, "zeoGqSFkIVfDdOVld0XnMprewlY=");
+_c = EditorContainer;
+var _c;
+__turbopack_context__.k.register(_c, "EditorContainer");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/app/problems/[slug]/ProblemContainer.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>ProblemContainer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+;
+;
+function ProblemContainer(t0) {
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(39);
+    if ($[0] !== "68402438ab8665c4260fbb1c937a66996d42a9c79528bdb74c0eab46c8a41000") {
+        for(let $i = 0; $i < 39; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "68402438ab8665c4260fbb1c937a66996d42a9c79528bdb74c0eab46c8a41000";
+    }
+    const { problem } = t0;
+    let t1;
+    if ($[1] !== problem.rank.name) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            children: problem.rank.name
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 19,
+            columnNumber: 10
+        }, this);
+        $[1] = problem.rank.name;
+        $[2] = t1;
+    } else {
+        t1 = $[2];
+    }
+    let t2;
+    if ($[3] !== problem.point) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            children: problem.point
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 27,
+            columnNumber: 10
+        }, this);
+        $[3] = problem.point;
+        $[4] = t2;
+    } else {
+        t2 = $[4];
+    }
+    let t3;
+    if ($[5] !== t1 || $[6] !== t2) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "min-h-16 flex items-center gap-2 font-bold",
+            children: [
+                t1,
+                t2
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 35,
+            columnNumber: 10
+        }, this);
+        $[5] = t1;
+        $[6] = t2;
+        $[7] = t3;
+    } else {
+        t3 = $[7];
+    }
+    let t4;
+    if ($[8] !== problem.title) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+            className: "font-bold text-dodger-blue uppercase text-xl",
+            children: problem.title
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 44,
+            columnNumber: 10
+        }, this);
+        $[8] = problem.title;
+        $[9] = t4;
+    } else {
+        t4 = $[9];
+    }
+    let t5;
+    if ($[10] !== problem.description) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "whitespace-pre-line",
+            children: problem.description
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 52,
+            columnNumber: 10
+        }, this);
+        $[10] = problem.description;
+        $[11] = t5;
+    } else {
+        t5 = $[11];
+    }
+    let t6;
+    if ($[12] !== t4 || $[13] !== t5) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col gap-y-4",
+            children: [
+                t4,
+                t5
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 60,
+            columnNumber: 10
+        }, this);
+        $[12] = t4;
+        $[13] = t5;
+        $[14] = t6;
+    } else {
+        t6 = $[14];
+    }
+    let t7;
+    if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+            className: "font-bold text-dodger-blue text-xl",
+            children: "Mô tả đầu vào"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 69,
+            columnNumber: 10
+        }, this);
+        $[15] = t7;
+    } else {
+        t7 = $[15];
+    }
+    let t8;
+    if ($[16] !== problem.inputDescription) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col gap-y-4",
+            children: [
+                t7,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "whitespace-pre-line",
+                    children: problem.inputDescription
+                }, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+                    lineNumber: 76,
+                    columnNumber: 53
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 76,
+            columnNumber: 10
+        }, this);
+        $[16] = problem.inputDescription;
+        $[17] = t8;
+    } else {
+        t8 = $[17];
+    }
+    let t9;
+    if ($[18] === Symbol.for("react.memo_cache_sentinel")) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+            className: "font-bold text-dodger-blue text-xl",
+            children: "Mô tả đầu ra"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 84,
+            columnNumber: 10
+        }, this);
+        $[18] = t9;
+    } else {
+        t9 = $[18];
+    }
+    let t10;
+    if ($[19] !== problem.outputDescription) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col gap-y-4",
+            children: [
+                t9,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "whitespace-pre-line",
+                    children: problem.outputDescription
+                }, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+                    lineNumber: 91,
+                    columnNumber: 54
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 91,
+            columnNumber: 11
+        }, this);
+        $[19] = problem.outputDescription;
+        $[20] = t10;
+    } else {
+        t10 = $[20];
+    }
+    let t11;
+    if ($[21] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+            className: "font-bold text-dodger-blue text-xl",
+            children: "Testcase mẫu"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 99,
+            columnNumber: 11
+        }, this);
+        $[21] = t11;
+    } else {
+        t11 = $[21];
+    }
+    let t12;
+    if ($[22] === Symbol.for("react.memo_cache_sentinel")) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+            className: "text-[16px] font-semibold text-white",
+            children: "Đầu vào mẫu 1"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 106,
+            columnNumber: 11
+        }, this);
+        $[22] = t12;
+    } else {
+        t12 = $[22];
+    }
+    let t13;
+    if ($[23] !== problem.testcases[0].input) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col gap-y-2 w-full h-fit",
+            children: [
+                t12,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
+                    className: "w-full p-4 rounded-lg bg-steel-gray",
+                    children: problem.testcases[0].input
+                }, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+                    lineNumber: 113,
+                    columnNumber: 68
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 113,
+            columnNumber: 11
+        }, this);
+        $[23] = problem.testcases[0].input;
+        $[24] = t13;
+    } else {
+        t13 = $[24];
+    }
+    let t14;
+    if ($[25] === Symbol.for("react.memo_cache_sentinel")) {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+            className: "text-[16px] font-semibold text-white",
+            children: "Đầu ra mẫu 1"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 121,
+            columnNumber: 11
+        }, this);
+        $[25] = t14;
+    } else {
+        t14 = $[25];
+    }
+    let t15;
+    if ($[26] !== problem.testcases[0].output) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col gap-y-2 w-full h-fit",
+            children: [
+                t14,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
+                    className: "w-full p-4 rounded-lg bg-steel-gray",
+                    children: problem.testcases[0].output
+                }, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+                    lineNumber: 128,
+                    columnNumber: 68
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 128,
+            columnNumber: 11
+        }, this);
+        $[26] = problem.testcases[0].output;
+        $[27] = t15;
+    } else {
+        t15 = $[27];
+    }
+    let t16;
+    if ($[28] !== t13 || $[29] !== t15) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col gap-y-4",
+            children: [
+                t11,
+                t13,
+                t15
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 136,
+            columnNumber: 11
+        }, this);
+        $[28] = t13;
+        $[29] = t15;
+        $[30] = t16;
+    } else {
+        t16 = $[30];
+    }
+    let t17;
+    if ($[31] !== t10 || $[32] !== t16 || $[33] !== t6 || $[34] !== t8) {
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "gap-y-6 flex flex-col",
+            children: [
+                t6,
+                t8,
+                t10,
+                t16
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 145,
+            columnNumber: 11
+        }, this);
+        $[31] = t10;
+        $[32] = t16;
+        $[33] = t6;
+        $[34] = t8;
+        $[35] = t17;
+    } else {
+        t17 = $[35];
+    }
+    let t18;
+    if ($[36] !== t17 || $[37] !== t3) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-full h-full flex flex-col px-4 overflow-x-hidden overflow-y- pb-4",
+            children: [
+                t3,
+                t17
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/ProblemContainer.tsx",
+            lineNumber: 156,
+            columnNumber: 11
+        }, this);
+        $[36] = t17;
+        $[37] = t3;
+        $[38] = t18;
+    } else {
+        t18 = $[38];
+    }
+    return t18;
+}
+_c = ProblemContainer;
+var _c;
+__turbopack_context__.k.register(_c, "ProblemContainer");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/app/problems/[slug]/HistoryContainer.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>HistoryContainer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ri$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/ri/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/bs/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/ci/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/md/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$lu$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/lu/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$table$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Table$3e$__ = __turbopack_context__.i("[project]/node_modules/antd/es/table/index.js [app-client] (ecmascript) <export default as Table>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__ = __turbopack_context__.i("[project]/node_modules/antd/es/tooltip/index.js [app-client] (ecmascript) <export default as Tooltip>");
+;
+var _s = __turbopack_context__.k.signature();
+;
+;
+;
+;
+;
+;
+;
+;
+function HistoryContainer() {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(45);
+    if ($[0] !== "99299c771667767c19347470a31bb3ed879a5d21487a2faa12e5346a58e0624f") {
+        for(let $i = 0; $i < 45; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "99299c771667767c19347470a31bb3ed879a5d21487a2faa12e5346a58e0624f";
+    }
+    const [onlyMe, setOnlyMe] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [curWidth, setcurWidth] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    let t0;
+    let t1;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = ({
+            "HistoryContainer[useEffect()]": ()=>{
+                if (!ref.current) {
+                    return;
+                }
+                const observer = new ResizeObserver((entries)=>{
+                    for (const entry of entries){
+                        const { width } = entry.contentRect;
+                        setcurWidth(width);
+                    }
+                });
+                observer.observe(ref.current);
+                return ()=>observer.disconnect();
+            }
+        })["HistoryContainer[useEffect()]"];
+        t1 = [];
+        $[1] = t0;
+        $[2] = t1;
+    } else {
+        t0 = $[1];
+        t1 = $[2];
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t0, t1);
+    let t2;
+    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = [
+            {
+                key: 1,
+                id: "1",
+                name: "Nguyen Van A",
+                point: 9,
+                createdAt: "16/11/2025 10:25 PM"
+            },
+            {
+                key: 2,
+                id: "2",
+                name: "Nguyen Van B",
+                point: 10,
+                createdAt: "16/11/2025 10:25 PM"
+            }
+        ];
+        $[3] = t2;
+    } else {
+        t2 = $[3];
+    }
+    const submissions = t2;
+    let t3;
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = {
+            title: "#",
+            dataIndex: "key",
+            key: "key",
+            width: 60,
+            render: _temp
+        };
+        $[4] = t3;
+    } else {
+        t3 = $[4];
+    }
+    let t4;
+    if ($[5] !== curWidth) {
+        t4 = curWidth > 500 ? "T\xEAn" : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CiCreditCard1"], {
+            className: "text-base"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+            lineNumber: 91,
+            columnNumber: 38
+        }, this);
+        $[5] = curWidth;
+        $[6] = t4;
+    } else {
+        t4 = $[6];
+    }
+    let t5;
+    if ($[7] !== curWidth) {
+        t5 = (val_0, record_0)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: `h-full w-[${curWidth * 0.28}px] flex items-center`,
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: `${record_0.id === "1" ? "text-white" : "text-dodger-blue"} text-ellipsis overflow-hidden text-nowrap inline-block w-full`,
+                    children: val_0
+                }, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+                    lineNumber: 99,
+                    columnNumber: 100
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+                lineNumber: 99,
+                columnNumber: 31
+            }, this);
+        $[7] = curWidth;
+        $[8] = t5;
+    } else {
+        t5 = $[8];
+    }
+    let t6;
+    if ($[9] !== t4 || $[10] !== t5) {
+        t6 = {
+            title: t4,
+            dataIndex: "name",
+            key: "name",
+            render: t5
+        };
+        $[9] = t4;
+        $[10] = t5;
+        $[11] = t6;
+    } else {
+        t6 = $[11];
+    }
+    let t7;
+    if ($[12] !== curWidth) {
+        t7 = curWidth > 500 ? "\u0110i\u1EC3m" : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MdOutlineScoreboard"], {
+            className: "text-base"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+            lineNumber: 121,
+            columnNumber: 46
+        }, this);
+        $[12] = curWidth;
+        $[13] = t7;
+    } else {
+        t7 = $[13];
+    }
+    let t8;
+    if ($[14] === Symbol.for("react.memo_cache_sentinel")) {
+        t8 = {
+            target: "full-header"
+        };
+        $[14] = t8;
+    } else {
+        t8 = $[14];
+    }
+    let t9;
+    if ($[15] !== t7) {
+        t9 = {
+            title: t7,
+            dataIndex: "point",
+            key: "point",
+            showSorterTooltip: t8,
+            sorter: _temp2,
+            className: "ant-table-align-center",
+            align: "center",
+            width: 80,
+            render: _temp3
+        };
+        $[15] = t7;
+        $[16] = t9;
+    } else {
+        t9 = $[16];
+    }
+    let t10;
+    if ($[17] !== curWidth) {
+        t10 = curWidth > 500 ? "Th\u1EDDi gian" : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$lu$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LuAlarmClock"], {
+            className: "text-base"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+            lineNumber: 156,
+            columnNumber: 47
+        }, this);
+        $[17] = curWidth;
+        $[18] = t10;
+    } else {
+        t10 = $[18];
+    }
+    let t11;
+    if ($[19] !== t10) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "ant-table-column-title",
+            children: t10
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+            lineNumber: 164,
+            columnNumber: 11
+        }, this);
+        $[19] = t10;
+        $[20] = t11;
+    } else {
+        t11 = $[20];
+    }
+    let t12;
+    if ($[21] !== curWidth) {
+        t12 = (val_2, record_2)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: `ant-table-column-title ${record_2.id === "1" ? "text-white" : "text-dodger-blue"}`,
+                children: curWidth > 500 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "font-medium",
+                    children: val_2
+                }, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+                    lineNumber: 172,
+                    columnNumber: 152
+                }, this) || /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
+                    placement: "top",
+                    title: val_2,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$lu$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LuAlarmClock"], {
+                        className: "cursor-pointer text-base"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+                        lineNumber: 172,
+                        columnNumber: 239
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+                    lineNumber: 172,
+                    columnNumber: 200
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+                lineNumber: 172,
+                columnNumber: 32
+            }, this);
+        $[21] = curWidth;
+        $[22] = t12;
+    } else {
+        t12 = $[22];
+    }
+    let t13;
+    if ($[23] !== t11 || $[24] !== t12) {
+        t13 = {
+            title: t11,
+            dataIndex: "createdAt",
+            key: "createdAt",
+            align: "center",
+            className: "ant-table-align-center",
+            ellipsis: true,
+            render: t12
+        };
+        $[23] = t11;
+        $[24] = t12;
+        $[25] = t13;
+    } else {
+        t13 = $[25];
+    }
+    let t14;
+    if ($[26] !== t13 || $[27] !== t6 || $[28] !== t9) {
+        t14 = [
+            t3,
+            t6,
+            t9,
+            t13
+        ];
+        $[26] = t13;
+        $[27] = t6;
+        $[28] = t9;
+        $[29] = t14;
+    } else {
+        t14 = $[29];
+    }
+    const columns = t14;
+    let t15;
+    if ($[30] === Symbol.for("react.memo_cache_sentinel")) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex text-dodger-blue items-center gap-1",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BsCodeSlash"], {}, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+                    lineNumber: 208,
+                    columnNumber: 69
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "font-bold text-sm",
+                    children: submissions.length
+                }, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+                    lineNumber: 208,
+                    columnNumber: 84
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+            lineNumber: 208,
+            columnNumber: 11
+        }, this);
+        $[30] = t15;
+    } else {
+        t15 = $[30];
+    }
+    const t16 = `text-lg cursor-pointer hover:brightness-75 transition-all duration-300 px-3 py-0.75 rounded-3xl ${onlyMe ? "bg-dodger-blue" : "text-dodger-blue"}`;
+    let t17;
+    if ($[31] !== onlyMe) {
+        t17 = ({
+            "HistoryContainer[<button>.onClick]": ()=>setOnlyMe(!onlyMe)
+        })["HistoryContainer[<button>.onClick]"];
+        $[31] = onlyMe;
+        $[32] = t17;
+    } else {
+        t17 = $[32];
+    }
+    let t18;
+    if ($[33] === Symbol.for("react.memo_cache_sentinel")) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ri$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RiQrScan2Line"], {}, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+            lineNumber: 226,
+            columnNumber: 11
+        }, this);
+        $[33] = t18;
+    } else {
+        t18 = $[33];
+    }
+    let t19;
+    if ($[34] !== t16 || $[35] !== t17) {
+        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex w-full px-4 py-2 h-auto justify-between",
+            children: [
+                t15,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
+                    placement: "top",
+                    title: "Ch\u1EC9 m\xECnh t\xF4i",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: t16,
+                        onClick: t17,
+                        children: t18
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+                        lineNumber: 233,
+                        columnNumber: 137
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+                    lineNumber: 233,
+                    columnNumber: 78
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+            lineNumber: 233,
+            columnNumber: 11
+        }, this);
+        $[34] = t16;
+        $[35] = t17;
+        $[36] = t19;
+    } else {
+        t19 = $[36];
+    }
+    let t20;
+    if ($[37] !== onlyMe) {
+        t20 = onlyMe ? submissions.filter(_HistoryContainerSubmissionsFilter) : submissions;
+        $[37] = onlyMe;
+        $[38] = t20;
+    } else {
+        t20 = $[38];
+    }
+    let t21;
+    if ($[39] !== columns || $[40] !== t20) {
+        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$table$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Table$3e$__["Table"], {
+            className: "min-w-[300px]",
+            dataSource: t20,
+            columns: columns,
+            pagination: false
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+            lineNumber: 250,
+            columnNumber: 11
+        }, this);
+        $[39] = columns;
+        $[40] = t20;
+        $[41] = t21;
+    } else {
+        t21 = $[41];
+    }
+    let t22;
+    if ($[42] !== t19 || $[43] !== t21) {
+        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col h-full w-full overflow-x-hidden overflow-y-auto",
+            ref: ref,
+            children: [
+                t19,
+                t21
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+            lineNumber: 259,
+            columnNumber: 11
+        }, this);
+        $[42] = t19;
+        $[43] = t21;
+        $[44] = t22;
+    } else {
+        t22 = $[44];
+    }
+    return t22;
+}
+_s(HistoryContainer, "Lpw94HUHL/qSGWFsz1br6eYl7ZE=");
+_c = HistoryContainer;
+function _HistoryContainerSubmissionsFilter(x) {
+    return x.id === "1";
+}
+function _temp3(val_1, record_1) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+        className: `${record_1.id === "1" ? "text-white" : "text-dodger-blue"}`,
+        children: val_1
+    }, void 0, false, {
+        fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+        lineNumber: 272,
+        columnNumber: 10
+    }, this);
+}
+function _temp2(a, b) {
+    return a.point - b.point;
+}
+function _temp(val, record) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+        className: `${record.id === "1" ? "text-white" : "text-dodger-blue"}`,
+        children: val
+    }, void 0, false, {
+        fileName: "[project]/src/app/problems/[slug]/HistoryContainer.tsx",
+        lineNumber: 278,
+        columnNumber: 10
+    }, this);
+}
+var _c;
+__turbopack_context__.k.register(_c, "HistoryContainer");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/app/problems/[slug]/CommentContainer.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>CommentContainer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$tfi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/tfi/index.mjs [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+;
+;
+;
+function CommentContainer() {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(10);
+    if ($[0] !== "60c46956a46717de1c13cc7756c2086dcef6376c977526b714f1d4e2168f389a") {
+        for(let $i = 0; $i < 10; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "60c46956a46717de1c13cc7756c2086dcef6376c977526b714f1d4e2168f389a";
+    }
+    let t0;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = [
+            {
+                _id: "1",
+                name: "Nguyen Huy Hung",
+                avatarUrl: "none",
+                content: "Goodjob!"
+            }
+        ];
+        $[1] = t0;
+    } else {
+        t0 = $[1];
+    }
+    const comments = t0;
+    const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    let t1;
+    if ($[2] !== loading) {
+        t1 = ({
+            "CommentContainer[handleButtonClick]": ()=>{
+                if (loading) {
+                    return;
+                }
+                setLoading(true);
+                ;
+                try {
+                    setLoading(true);
+                } catch (t2) {
+                    const error = t2;
+                    console.error(error);
+                    setLoading(false);
+                }
+            }
+        })["CommentContainer[handleButtonClick]"];
+        $[2] = loading;
+        $[3] = t1;
+    } else {
+        t1 = $[3];
+    }
+    const handleButtonClick = t1;
+    let t2;
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "font-bold",
+            children: [
+                comments.length,
+                " bài thảo luận"
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/CommentContainer.tsx",
+            lineNumber: 58,
+            columnNumber: 10
+        }, this);
+        $[4] = t2;
+    } else {
+        t2 = $[4];
+    }
+    let t3;
+    if ($[5] !== handleButtonClick || $[6] !== loading) {
+        t3 = !loading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            className: "cursor-pointer hover:brightness-75 transition-[filter] duration-200",
+            onClick: handleButtonClick,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$tfi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TfiReload"], {}, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/CommentContainer.tsx",
+                lineNumber: 65,
+                columnNumber: 138
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/CommentContainer.tsx",
+            lineNumber: 65,
+            columnNumber: 22
+        }, this);
+        $[5] = handleButtonClick;
+        $[6] = loading;
+        $[7] = t3;
+    } else {
+        t3 = $[7];
+    }
+    let t4;
+    if ($[8] !== t3) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col w-full h-auto p-4",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex items-center justify-between py-2 px-3 text-orange-400 text-[17px]",
+                children: [
+                    t2,
+                    t3
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/problems/[slug]/CommentContainer.tsx",
+                lineNumber: 74,
+                columnNumber: 59
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/CommentContainer.tsx",
+            lineNumber: 74,
+            columnNumber: 10
+        }, this);
+        $[8] = t3;
+        $[9] = t4;
+    } else {
+        t4 = $[9];
+    }
+    return t4;
+}
+_s(CommentContainer, "/Rjh5rPqCCqf0XYnTUk9ZNavw3Q=");
+_c = CommentContainer;
+var _c;
+__turbopack_context__.k.register(_c, "CommentContainer");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/app/problems/[slug]/SidebarContainer.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>SidebarContainer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/bs/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$lu$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/lu/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ti$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/ti/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__ = __turbopack_context__.i("[project]/node_modules/antd/es/tooltip/index.js [app-client] (ecmascript) <export default as Tooltip>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$ProblemContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/problems/[slug]/ProblemContainer.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$HistoryContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/problems/[slug]/HistoryContainer.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$CommentContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/problems/[slug]/CommentContainer.tsx [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+function SidebarContainer(t0) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(26);
+    if ($[0] !== "62116984738e6dfdcedda1b36e734c40161e62cbd304c3f09f89d93c3e57608d") {
+        for(let $i = 0; $i < 26; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "62116984738e6dfdcedda1b36e734c40161e62cbd304c3f09f89d93c3e57608d";
+    }
+    const { ref, problem } = t0;
+    const [item, setItem] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("problem");
+    const t1 = `h-16 w-full flex flex-col items-center justify-center transition-colors duration-200 cursor-pointer ${item === "problem" ? "text-dodger-blue bg-ebony-clay border-l-2 border-solid border-dodger-blue" : "border-none hover:brightness-90"}`;
+    let t2;
+    let t3;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = ({
+            "SidebarContainer[<div>.onClick]": ()=>setItem("problem")
+        })["SidebarContainer[<div>.onClick]"];
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ti$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TiClipboard"], {
+            className: "text-4xl"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 38,
+            columnNumber: 10
+        }, this);
+        $[1] = t2;
+        $[2] = t3;
+    } else {
+        t2 = $[1];
+        t3 = $[2];
+    }
+    let t4;
+    if ($[3] !== t1) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
+            placement: "right",
+            title: "N\u1ED9i dung",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: t1,
+                onClick: t2,
+                children: t3
+            }, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+                lineNumber: 47,
+                columnNumber: 61
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 47,
+            columnNumber: 10
+        }, this);
+        $[3] = t1;
+        $[4] = t4;
+    } else {
+        t4 = $[4];
+    }
+    const t5 = `h-16 w-full flex flex-col items-center justify-center transition-colors duration-200 cursor-pointer ${item === "history" ? "text-dodger-blue bg-ebony-clay border-l-2 border-solid border-dodger-blue" : "border-none hover:brightness-90"}`;
+    let t6;
+    let t7;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = ({
+            "SidebarContainer[<div>.onClick]": ()=>setItem("history")
+        })["SidebarContainer[<div>.onClick]"];
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$lu$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LuLayoutList"], {
+            className: "text-4xl"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 60,
+            columnNumber: 10
+        }, this);
+        $[5] = t6;
+        $[6] = t7;
+    } else {
+        t6 = $[5];
+        t7 = $[6];
+    }
+    let t8;
+    if ($[7] !== t5) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
+            placement: "right",
+            title: "L\u1ECBch s\u1EED n\u1ED9p b\xE0i",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: t5,
+                onClick: t6,
+                children: t7
+            }, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+                lineNumber: 69,
+                columnNumber: 81
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 69,
+            columnNumber: 10
+        }, this);
+        $[7] = t5;
+        $[8] = t8;
+    } else {
+        t8 = $[8];
+    }
+    const t9 = `h-16 w-full flex flex-col items-center justify-center transition-colors duration-200 cursor-pointer ${item === "comment" ? "text-dodger-blue bg-ebony-clay border-l-2 border-solid border-dodger-blue" : "border-none hover:brightness-90"}`;
+    let t10;
+    let t11;
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+        t10 = ({
+            "SidebarContainer[<div>.onClick]": ()=>setItem("comment")
+        })["SidebarContainer[<div>.onClick]"];
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BsChatLeftText"], {
+            className: "text-4xl"
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 82,
+            columnNumber: 11
+        }, this);
+        $[9] = t10;
+        $[10] = t11;
+    } else {
+        t10 = $[9];
+        t11 = $[10];
+    }
+    let t12;
+    if ($[11] !== t9) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
+            placement: "right",
+            title: "Ph\u1EA3n h\u1ED3i",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: t9,
+                onClick: t10,
+                children: t11
+            }, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+                lineNumber: 91,
+                columnNumber: 67
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 91,
+            columnNumber: 11
+        }, this);
+        $[11] = t9;
+        $[12] = t12;
+    } else {
+        t12 = $[12];
+    }
+    let t13;
+    if ($[13] !== t12 || $[14] !== t4 || $[15] !== t8) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-full w-16 min-w-16 bg-steel-gray flex flex-col",
+            children: [
+                t4,
+                t8,
+                t12
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 99,
+            columnNumber: 11
+        }, this);
+        $[13] = t12;
+        $[14] = t4;
+        $[15] = t8;
+        $[16] = t13;
+    } else {
+        t13 = $[16];
+    }
+    let t14;
+    if ($[17] !== item || $[18] !== problem) {
+        t14 = item === "problem" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$ProblemContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            problem: problem
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 109,
+            columnNumber: 33
+        }, this) || item === "history" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$HistoryContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 109,
+            columnNumber: 97
+        }, this) || item === "comment" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$CommentContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 109,
+            columnNumber: 143
+        }, this);
+        $[17] = item;
+        $[18] = problem;
+        $[19] = t14;
+    } else {
+        t14 = $[19];
+    }
+    let t15;
+    if ($[20] !== t14) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-full flex-1 bg-ebony-clay min-w-0",
+            children: t14
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 118,
+            columnNumber: 11
+        }, this);
+        $[20] = t14;
+        $[21] = t15;
+    } else {
+        t15 = $[21];
+    }
+    let t16;
+    if ($[22] !== ref || $[23] !== t13 || $[24] !== t15) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-full w-[30%] overflow-y-auto overflow-x-hidden max-w-full min-w-16 flex",
+            ref: ref,
+            children: [
+                t13,
+                t15
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/SidebarContainer.tsx",
+            lineNumber: 126,
+            columnNumber: 11
+        }, this);
+        $[22] = ref;
+        $[23] = t13;
+        $[24] = t15;
+        $[25] = t16;
+    } else {
+        t16 = $[25];
+    }
+    return t16;
+}
+_s(SidebarContainer, "G2QDToSO4XlS2uYOmK1uQ/26h/Q=");
+_c = SidebarContainer;
+var _c;
+__turbopack_context__.k.register(_c, "SidebarContainer");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/types/problem.ts [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Rank",
+    ()=>Rank
+]);
+const Rank = {
+    HARDCORE: {
+        id: "hardcore",
+        name: "Cực khó"
+    },
+    HARD: {
+        id: "hard",
+        name: "Khó"
+    },
+    NORMAL: {
+        id: "normal",
+        name: "Trung bình"
+    },
+    EASY: {
+        id: "easy",
+        name: "Dễ"
+    }
+};
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/app/problems/[slug]/page.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Problem
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/bi/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$home$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/home/Navbar.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$EditorContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/problems/[slug]/EditorContainer.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$SidebarContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/problems/[slug]/SidebarContainer.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$types$2f$problem$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/types/problem.ts [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+function Problem(t0) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(14);
+    if ($[0] !== "7c4d3b8780069492e4e24e912e27362aa4bdcc07eeeb492cc03e4fc587e555da") {
+        for(let $i = 0; $i < 14; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "7c4d3b8780069492e4e24e912e27362aa4bdcc07eeeb492cc03e4fc587e555da";
+    }
+    const { params } = t0;
+    const { slug } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["use"])(params);
+    let t1;
+    if ($[1] !== slug) {
+        t1 = ({
+            "Problem[useEffect()]": ()=>{
+                const getData = async function getData() {
+                    const res = await fetch(`/api/problems/${slug}`, {
+                        method: "GET"
+                    });
+                    console.log(res);
+                };
+                getData();
+            }
+        })["Problem[useEffect()]"];
+        $[1] = slug;
+        $[2] = t1;
+    } else {
+        t1 = $[2];
+    }
+    let t2;
+    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = [];
+        $[3] = t2;
+    } else {
+        t2 = $[3];
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t1, t2);
+    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const leftRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const rightRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const dragRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const isDragging = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(false);
+    let handleMouseDown;
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
+        handleMouseDown = ({
+            "Problem[handleMouseDown]": (e)=>{
+                e.preventDefault();
+                isDragging.current = true;
+                document.addEventListener("mousemove", handleMouseMove);
+                document.addEventListener("mouseup", handleMouseUp);
+            }
+        })["Problem[handleMouseDown]"];
+        const handleMouseMove = {
+            "Problem[handleMouseMove]": (e_0)=>{
+                if (!isDragging.current || !containerRef.current || !leftRef.current || !rightRef.current) {
+                    return;
+                }
+                const containerWidth = containerRef.current.offsetWidth;
+                const newLeftWidth = e_0.clientX - containerRef.current.getBoundingClientRect().left;
+                leftRef.current.style.width = `${newLeftWidth}px`;
+                rightRef.current.style.width = `${containerWidth - newLeftWidth - 2}px`;
+            }
+        }["Problem[handleMouseMove]"];
+        const handleMouseUp = {
+            "Problem[handleMouseUp]": ()=>{
+                isDragging.current = false;
+                document.removeEventListener("mousemove", handleMouseMove);
+                document.removeEventListener("mouseup", handleMouseUp);
+            }
+        }["Problem[handleMouseUp]"];
+        $[4] = handleMouseDown;
+    } else {
+        handleMouseDown = $[4];
+    }
+    let t3;
+    let t4;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = {
+            id: "topic",
+            name: "Topic"
+        };
+        t4 = [
+            {
+                input: "1234\n6",
+                output: "4"
+            }
+        ];
+        $[5] = t3;
+        $[6] = t4;
+    } else {
+        t3 = $[5];
+        t4 = $[6];
+    }
+    let t5;
+    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
+        t5 = {
+            title: "B\xC0I TO\xC1N BI\u1EC2U TH\u1EE8C",
+            description: "Cho x\xE2u S (ch\u1EC9 g\u1ED3m c\xE1c k\xFD t\u1EF1 \u20180\u2032 \u0111\u1EBFn \u20189\u2032, \u0111\u1ED9 d\xE0i nh\u1ECF h\u01A1n 10) v\xE0 s\u1ED1 nguy\xEAn M.\nY\xEAu c\u1EA7u: Kh\xF4ng thay \u0111\u1ED5i th\u1EE9 t\u1EF1 c\u1EE7a c\xE1c k\xFD t\u1EF1 trong x\xE2u S. H\xE3y \u0111\u1EBFm s\u1ED1 c\xE1ch l\u1EA5y ra m\u1ED9t s\u1ED1 k\xFD t\u1EF1 trong x\xE2u S v\xE0 ch\xE8n v\xE0o tr\u01B0\u1EDBc n\xF3 c\xE1c d\u1EA5u \u2018+\u2032 ho\u1EB7c \u2018\u2212\u2018 \u0111\u1EC3 thu \u0111\u01B0\u1EE3c s\u1ED1 M cho tr\u01B0\u1EDBc?",
+            inputDescription: "1234\n6",
+            outputDescription: "4",
+            topic: t3,
+            testcases: t4,
+            point: 10,
+            rank: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$types$2f$problem$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Rank"].NORMAL,
+            comments: [
+                {
+                    name: "A",
+                    avatarUrl: "a",
+                    content: "hello"
+                }
+            ]
+        };
+        $[7] = t5;
+    } else {
+        t5 = $[7];
+    }
+    const problem = t5;
+    let t6;
+    if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$home$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            collapse: true
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/page.tsx",
+            lineNumber: 129,
+            columnNumber: 10
+        }, this);
+        $[8] = t6;
+    } else {
+        t6 = $[8];
+    }
+    let t7;
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BiHome"], {}, void 0, false, {
+                fileName: "[project]/src/app/problems/[slug]/page.tsx",
+                lineNumber: 136,
+                columnNumber: 16
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/page.tsx",
+            lineNumber: 136,
+            columnNumber: 10
+        }, this);
+        $[9] = t7;
+    } else {
+        t7 = $[9];
+    }
+    let t8;
+    if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            href: `/topics/${problem.topic.id}`,
+            className: "hover:text-dodger-blue transition-colors duration-300",
+            children: problem.topic.name
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/page.tsx",
+            lineNumber: 143,
+            columnNumber: 10
+        }, this);
+        $[10] = t8;
+    } else {
+        t8 = $[10];
+    }
+    let t9;
+    if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-10 w-full bg-ebony-clay flex gap-x-1 items-center py-2 px-4 border-b border-solid border-gray-700",
+            children: [
+                t7,
+                "/",
+                t8,
+                "/ ",
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "font-bold uppercase",
+                    children: problem.title
+                }, void 0, false, {
+                    fileName: "[project]/src/app/problems/[slug]/page.tsx",
+                    lineNumber: 150,
+                    columnNumber: 138
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/page.tsx",
+            lineNumber: 150,
+            columnNumber: 10
+        }, this);
+        $[11] = t9;
+    } else {
+        t9 = $[11];
+    }
+    let t10;
+    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$SidebarContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            ref: leftRef,
+            problem: problem
+        }, void 0, false, {
+            fileName: "[project]/src/app/problems/[slug]/page.tsx",
+            lineNumber: 157,
+            columnNumber: 11
+        }, this);
+        $[12] = t10;
+    } else {
+        t10 = $[12];
+    }
+    let t11;
+    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-screen w-full flex flex-col pt-10",
+            children: [
+                t6,
+                t9,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "w-full h-full overflow-hidden flex relative select-none",
+                    ref: containerRef,
+                    children: [
+                        t10,
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "h-full w-1.5 bg-gray-700 cursor-col-resize flex items-center justify-center",
+                            ref: dragRef,
+                            onMouseDown: handleMouseDown,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "h-10 w-[1.6px] rounded-lg bg-gray-400"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/problems/[slug]/page.tsx",
+                                lineNumber: 164,
+                                columnNumber: 306
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/problems/[slug]/page.tsx",
+                            lineNumber: 164,
+                            columnNumber: 169
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$problems$2f5b$slug$5d2f$EditorContainer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            ref: rightRef,
+                            problem: problem
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/problems/[slug]/page.tsx",
+                            lineNumber: 164,
+                            columnNumber: 369
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/problems/[slug]/page.tsx",
+                    lineNumber: 164,
+                    columnNumber: 72
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/problems/[slug]/page.tsx",
+            lineNumber: 164,
+            columnNumber: 11
+        }, this);
+        $[13] = t11;
+    } else {
+        t11 = $[13];
+    }
+    return t11;
+}
+_s(Problem, "vXStOSMyQ9+WWWmLEvdvEOjjI1I=");
+_c = Problem;
+var _c;
+__turbopack_context__.k.register(_c, "Problem");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+]);
+
+//# sourceMappingURL=src_7ec4bd11._.js.map
