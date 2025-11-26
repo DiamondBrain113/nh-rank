@@ -110,3 +110,13 @@ body {
   justify-content: center;
   display: flex;
 }
+
+.ant-modal-content {
+  background-color: var(--color-ebony-clay) !important;
+  color: white !important;
+}
+
+.ant-modal-content i,
+.anticon {
+  color: white !important;
+}

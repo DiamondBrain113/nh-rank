@@ -3,6 +3,18 @@
   container-name: editor-container;
 }
 
+.stdin-container,
+.others-container,
+.sidebar-container,
+.editor-container {
+  width: var(--width);
+}
+
+.top-ref,
+.bottom-ref {
+  height: var(--height);
+}
+
 .ant-dropdown-menu {
   background-color: var(--ebony-clay) !important;
   border-radius: 4px !important;
@@ -13,6 +25,31 @@
 .ant-dropdown-menu-item {
   padding: 0 !important;
   height: 32px !important;
+}
+
+@container editor-container (max-width: 765px) {
+  .minimize-btn {
+    display: flex;
+  }
+
+  .full-btn {
+    display: none;
+  }
+
+  .bottom-container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .stdin-container,
+  .others-container {
+    width: 100%;
+    height: 50%;
+  }
+
+  .bottom-drag-width {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 995px) {
@@ -27,27 +64,15 @@
   .ant-tooltip {
     display: none;
   }
-}
 
-@container editor-container (max-width: 765px) {
-  .minimize-btn {
-    display: flex;
-  }
-
-  .full-btn {
-    display: none;
-  }
-
-  .bottom-container {
-    flex-direction: column;
+  .bottom-ref {
+    height: 500px;
   }
 
   .stdin-container,
-  .others-container {
+  .others-container,
+  .sidebar-container,
+  .editor-container {
     width: 100%;
-  }
-
-  .bottom-drag-width {
-    display: none;
   }
 }

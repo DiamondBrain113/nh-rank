@@ -6,7 +6,8 @@ import * as jwt from "jsonwebtoken";
 import { NotificationProvider } from "@/context/NotificationProvider";
 import NotificationContainer from "@/components/home/NotificationContainer";
 import { UserProvider, UserRole } from "@/context/UserContext";
-import User, { OUser } from "@/models/User";
+import { OUser } from "@/models/User";
+import { User } from "@/models";
 import dbConnect from "@/lib/mongoose";
 
 import "./globals.css";
@@ -38,16 +39,8 @@ export default async function RootLayout({
         id: string;
         role: UserRole;
       };
-      user = (await User.findById(payload.id)
-        .select("-password")
-        .lean()) as OUser | null;
-
-      if (user) {
-        user = {
-          ...user,
-          _id: user?._id?.toString(),
-        };
-      }
+      user = await User.findById(payload.id).lean<OUser>();
+      user = JSON.parse(JSON.stringify(user)) as OUser;
     } catch (err) {
       console.error(err);
     }

@@ -2,7 +2,8 @@ import { NextResponse } from "next/server";
 import * as jwt from "jsonwebtoken";
 
 import dbConnect from "@/lib/mongoose";
-import User from "@/models/User";
+import { OUser } from "@/models/User";
+import { User } from "@/models";
 import {
   createAccessToken,
   createRefreshToken,
@@ -34,7 +35,7 @@ export async function POST(req: Request) {
 
     await dbConnect();
 
-    const user = await User.findOne({ id: payload.id });
+    const user = await User.findOne({ id: payload.id }).lean<OUser>();
     if (!user)
       return NextResponse.json(
         { ok: false, error: "User không hợp lệ" },
@@ -43,20 +44,10 @@ export async function POST(req: Request) {
 
     const newAccess = createAccessToken(payload);
     const newRefresh = createRefreshToken(payload);
-    const { accessCookie, refreshCookie } = setTokenCookies(
-      newAccess,
-      newRefresh
-    );
+    let res: NextResponse = NextResponse.json({ ok: true });
+    res = setTokenCookies(res, newAccess, newRefresh);
 
-    return NextResponse.json(
-      { ok: true },
-      {
-        headers: {
-          "Set-Cookie": `${accessCookie}; ${refreshCookie}`,
-        },
-        status: 200,
-      }
-    );
+    return res;
   } catch (err) {
     console.error(err);
     return NextResponse.json(

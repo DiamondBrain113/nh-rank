@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 
 import dbConnect from "@/lib/mongoose";
-import User from "@/models/User";
+import { User } from "@/models";
 import {
   createAccessToken,
   createRefreshToken,
@@ -22,12 +22,11 @@ export async function POST(req: Request) {
       );
 
     const passwordHash = await bcrypt.hash(password, 10);
-    const newUser = new User({
+    const newUser = await User.create({
       name,
       username,
       password: passwordHash,
     });
-    await newUser.save();
 
     const payload = { id: newUser._id!.toString(), role: newUser.role };
     const accessToken = createAccessToken(payload);

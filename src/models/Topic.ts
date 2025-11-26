@@ -9,12 +9,31 @@ export interface OTopic {
   name: string;
 }
 
-const TopicSchema = new Schema<ITopic>({
-  name: {
-    type: String,
-    required: true,
-    unique: true,
+const TopicSchema = new Schema<ITopic>(
+  {
+    name: {
+      type: String,
+      required: true,
+      unique: true,
+      trim: true,
+    },
   },
+  {
+    timestamps: false,
+    toJSON: {
+      transform: (_doc, ret) => ({
+        _id: ret._id?.toString(),
+        name: ret.name,
+      }),
+    },
+  }
+);
+
+TopicSchema.set("toObject", {
+  transform: (_doc, ret) => ({
+    _id: ret._id?.toString(),
+    name: ret.name,
+  }),
 });
 
 const Topic: Model<ITopic> =

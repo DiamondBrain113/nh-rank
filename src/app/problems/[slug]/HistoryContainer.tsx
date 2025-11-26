@@ -6,19 +6,39 @@ import { BsCodeSlash } from "react-icons/bs";
 import { CiCreditCard1 } from "react-icons/ci";
 import { MdOutlineScoreboard } from "react-icons/md";
 import { LuAlarmClock } from "react-icons/lu";
+import useQuery from "@/hooks/useQuery";
+import { OSubmission } from "@/models/Submission";
+import { useUser } from "@/context/UserContext";
+import Image from "next/image";
+import formatDate from "@/hooks/formatDate";
 
-interface Submission {
-  key: number;
-  id: string;
-  name: string;
-  point: number;
-  createdAt: string;
+interface Props {
+  submissions: OSubmission[];
 }
 
-export default function HistoryContainer() {
+export default function HistoryContainer({
+  submissions: rawSubmissions,
+}: Props) {
   const [onlyMe, setOnlyMe] = useState(false);
   const [width, setWidth] = useState(0);
+  const { user } = useUser();
   const ref = useRef<HTMLDivElement | null>(null);
+  const query = useQuery();
+
+  const rankedSubmissions = rawSubmissions
+    ?.map((sub, index) => ({
+      ...sub,
+      rank: index + 1,
+    }))
+    .sort((a, b) => {
+      if (b.point !== a.point) return b.point - a.point;
+      if (b.runtime !== a.runtime) return (a.runtime || 0) - (b.runtime || 0);
+      return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+    });
+
+  const dataSource = onlyMe
+    ? rankedSubmissions.filter((s) => s.userId._id === user?._id)
+    : rankedSubmissions;
 
   useEffect(() => {
     if (!ref.current) return;
@@ -35,53 +55,31 @@ export default function HistoryContainer() {
     return () => observer.disconnect();
   }, []);
 
-  const submissions: Submission[] = [
-    {
-      key: 1,
-      id: "1",
-      name: "Nguyen Van A",
-      point: 9,
-      createdAt: "16/11/2025 10:25 PM",
-    },
-    {
-      key: 2,
-      id: "2",
-      name: "Nguyen Van B",
-      point: 10,
-      createdAt: "16/11/2025 10:25 PM",
-    },
-  ];
-
-  const columns: ColumnsType<Submission> = [
+  const columns: ColumnsType<OSubmission> = [
     {
       title: "#",
-      dataIndex: "key",
-      key: "key",
+      dataIndex: "rank",
+      key: "rank",
       width: 60,
-      render: (val: number, record: Submission) => (
-        <span
-          className={`${
-            record.id === "1" ? "text-white cursor-pointer" : "text-dodger-blue"
-          }`}
-        >
-          {val}
-        </span>
-      ),
     },
     {
-      title: width > 500 ? "Tên" : <CiCreditCard1 className="text-base" />,
-      dataIndex: "name",
-      key: "name",
-      render: (val: number, record: Submission) => (
-        <div className={`h-full w-[${width * 0.28}px] flex items-center`}>
+      title:
+        width > 500 ? "Họ và tên" : <CiCreditCard1 className="text-base" />,
+      dataIndex: "userId",
+      key: "user",
+      render: (val: any) => (
+        <div className={`h-full w-[${width * 0.28}px] flex items-center gap-1`}>
+          <Image
+            src={val.avatarUrl}
+            alt="avt"
+            width={28}
+            height={28}
+            className="rounded-full"
+          />
           <span
-            className={`${
-              record.id === "1"
-                ? "text-white cursor-pointer"
-                : "text-dodger-blue"
-            } text-ellipsis overflow-hidden text-nowrap inline-block w-full`}
+            className={`text-ellipsis overflow-hidden text-nowrap inline-block w-full`}
           >
-            {val}
+            {val?.name}
           </span>
         </div>
       ),
@@ -91,20 +89,11 @@ export default function HistoryContainer() {
         width > 500 ? "Điểm" : <MdOutlineScoreboard className="text-base" />,
       dataIndex: "point",
       key: "point",
-      showSorterTooltip: { target: "full-header" },
-      sorter: (a: Submission, b: Submission) => a.point - b.point,
+      showSorterTooltip: { target: "sorter-icon" },
+      sorter: (a: OSubmission, b: OSubmission) => a.point - b.point,
       className: "ant-table-align-center",
       align: "center",
       width: 80,
-      render: (val: number, record: Submission) => (
-        <span
-          className={`${
-            record.id === "1" ? "text-white cursor-pointer" : "text-dodger-blue"
-          }`}
-        >
-          {val}
-        </span>
-      ),
     },
     {
       title: (
@@ -117,14 +106,12 @@ export default function HistoryContainer() {
       align: "center",
       className: "ant-table-align-center",
       ellipsis: true,
-      render: (val: string, record: Submission) => (
-        <div
-          className={`ant-table-column-title ${
-            record.id === "1" ? "text-white cursor-pointer" : "text-dodger-blue"
-          }`}
-        >
-          {(width > 500 && <span className="font-medium">{val}</span>) || (
-            <Tooltip placement="top" title={val}>
+      render: (val: string) => (
+        <div className={`ant-table-column-title`}>
+          {(width > 500 && (
+            <span className="font-medium">{formatDate(val)}</span>
+          )) || (
+            <Tooltip placement="top" title={formatDate(val)}>
               <LuAlarmClock className="cursor-pointer text-base" />
             </Tooltip>
           )}
@@ -132,6 +119,12 @@ export default function HistoryContainer() {
       ),
     },
   ];
+
+  const handleMyRowClick = (record: OSubmission) => {
+    if (record.userId._id === user._id) {
+      query.set({ submission: record._id });
+    }
+  };
 
   return (
     <div
@@ -141,7 +134,9 @@ export default function HistoryContainer() {
       <div className="flex w-full px-4 py-2 h-auto justify-between">
         <div className="flex text-dodger-blue items-center gap-1">
           <BsCodeSlash />
-          <span className="font-bold text-sm">{submissions.length}</span>
+          <span className="font-bold text-sm">
+            {dataSource ? dataSource.length : "Đang tải..."}
+          </span>
         </div>
         <Tooltip placement="top" title="Chỉ mình tôi">
           <button
@@ -156,9 +151,15 @@ export default function HistoryContainer() {
       </div>
       <Table
         className="min-w-[300px]"
-        dataSource={
-          onlyMe ? submissions.filter((x) => x.id === "1") : submissions
-        }
+        dataSource={dataSource}
+        rowKey={"_id"}
+        rowClassName={(record) => {
+          const isMe = record.userId._id === user._id;
+          return isMe ? "text-white cursor-pointer" : "text-dodger-blue";
+        }}
+        onRow={(record) => ({
+          onClick: () => handleMyRowClick(record),
+        })}
         columns={columns}
         pagination={false}
       />

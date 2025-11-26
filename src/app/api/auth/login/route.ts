@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 
-import User from "@/models/User";
+import { User } from "@/models";
 import dbConnect from "@/lib/mongoose";
 import {
   createAccessToken,

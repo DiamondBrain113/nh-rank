@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import * as jwt from "jsonwebtoken";
 import dbConnect from "@/lib/mongoose";
-import User from "@/models/User";
+import { User } from "@/models";
+import { OUser } from "@/models/User";
 
 const ACCESS_SECRET = process.env.JWT_SECRET!;
 
@@ -21,7 +22,7 @@ export async function GET(req: Request) {
     };
 
     await dbConnect();
-    const user = await User.findById(payload.id).select("-password").lean();
+    const user = await User.findById(payload.id).lean<OUser>();
     if (!user)
       return NextResponse.json({ error: "User không hợp lệ" }, { status: 404 });
 
