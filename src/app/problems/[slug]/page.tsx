@@ -85,8 +85,13 @@ export default function Problem({
       return;
 
     const containerWidth = containerRef.current.offsetWidth;
-    const newLeftWidth =
-      e.clientX - containerRef.current.getBoundingClientRect().left;
+    const newLeftWidth = Math.max(
+      Math.min(
+        e.clientX - containerRef.current.getBoundingClientRect().left,
+        containerWidth - 2
+      ),
+      0
+    );
 
     leftRef.current.style.setProperty("--width", `${newLeftWidth}px`);
     rightRef.current.style.setProperty(

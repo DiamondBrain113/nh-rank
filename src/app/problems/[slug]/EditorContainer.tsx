@@ -62,8 +62,13 @@ const EditorContainer = forwardRef<HTMLDivElement, Props>(
         return;
 
       const containerHeight = containerRef.current.offsetHeight;
-      const newHeight =
-        e.clientY - containerRef.current.getBoundingClientRect().top;
+      const newHeight = Math.max(
+        Math.min(
+          e.clientY - containerRef.current.getBoundingClientRect().top,
+          containerHeight - 2
+        ),
+        0
+      );
 
       topRef.current.style.setProperty("--height", `${newHeight}px`);
       topRef.current.style.maxHeight = `${newHeight}px`;
