@@ -7,8 +7,7 @@ interface IUser extends Document {
   name: string;
   role: UserRole;
   avatarUrl: string;
-  problem: number;
-  submission: number;
+  totalPoint: number;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -19,8 +18,7 @@ export interface OUser {
   name: string;
   role: UserRole;
   avatarUrl: string;
-  problem: number;
-  submission: number;
+  totalPoint: number;
   createdAt: string;
   updatedAt: string;
 }
@@ -63,12 +61,7 @@ const UserSchema = new Schema<IUser>(
       enum: ["teacher", "student"] as const,
       default: "student",
     },
-    problem: {
-      type: Number,
-      default: 0,
-      min: 0,
-    },
-    submission: {
+    totalPoint: {
       type: Number,
       default: 0,
       min: 0,
@@ -94,8 +87,7 @@ UserSchema.set("toJSON", {
       name: user.name!,
       role: user.role!,
       avatarUrl: user.avatarUrl!,
-      problem: user.problem!,
-      submission: user.submission!,
+      totalPoint: user.totalPoint!,
       createdAt: user.createdAt!.toISOString(),
       updatedAt: user.updatedAt!.toISOString(),
     } satisfies OUser;
