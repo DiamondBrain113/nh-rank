@@ -160,7 +160,6 @@ int main() {
             return addNotification(data.error, "error");
           }
           setCodeResponse(data.submission);
-          console.log(testResponse);
           setLoadingRunCode(false);
         } catch (error) {
           console.error(error);

@@ -97,7 +97,6 @@ export async function POST(req: Request) {
 
     const { searchParams } = new URL(req.url);
     const typeSubmit = searchParams.get("t")?.toLowerCase();
-    console.log(typeSubmit);
 
     const TYPE = ["submit", "code"];
 
@@ -128,7 +127,6 @@ async function submitSubmission(
   sourceCode: string,
   userId: string
 ) {
-  console.log(sourceCode);
   if (!userId)
     return NextResponse.json(
       { ok: false, error: "Chưa đăng nhập!" },
