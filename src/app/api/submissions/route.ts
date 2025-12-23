@@ -238,10 +238,14 @@ async function submitSubmission(
     const isPassed = await Submission.findOne(filter);
     if (!isPassed) {
       await User.findByIdAndUpdate(userId, {
-        $inc: { totalPoint: problem.point },
+        $inc: { totalPoint: problem.point, problem: 1 },
       });
     }
   }
+
+  await User.findByIdAndUpdate(userId, {
+    $inc: { submission: 1 },
+  });
 
   const newSub = await Submission.create({
     userId: userId,
