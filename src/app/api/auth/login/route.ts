@@ -17,14 +17,14 @@ export async function POST(req: Request) {
     const user = await User.findOne({ username }).lean();
     if (!user)
       return NextResponse.json(
-        { ok: false, error: "Thông tin không hợp lệ" },
-        { status: 404 }
+        { ok: false, error: "Tên người dùng không hợp lệ" },
+        { status: 406 }
       );
     const ok = bcrypt.compare(password, user.password!);
     if (!ok)
       return NextResponse.json(
-        { ok: false, error: "Thông tin không hợp lệ" },
-        { status: 404 }
+        { ok: false, error: "Sai mật khẩu!" },
+        { status: 406 }
       );
 
     const payload = { id: user._id!.toString(), role: user.role };
@@ -38,7 +38,7 @@ export async function POST(req: Request) {
   } catch (err) {
     console.error(err);
     return NextResponse.json(
-      { ok: false, error: "Đăng nhập thất bại" },
+      { ok: false, error: "Đăng nhập thất bại: "+err },
       { status: 500 }
     );
   }

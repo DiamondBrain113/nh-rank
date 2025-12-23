@@ -30,6 +30,14 @@ export default function RegisterForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (loading) return;
+
+    const pattern = /^[a-zA-Z][a-zA-Z0-9_]{2,15}$/;
+    const valid = await pattern.test(form.username);
+    if (!valid){
+      addNotification("Tên người dùng không hợp lệ!", "error");
+      return;
+    }
+      
     if (form.password !== form.confirmPassword) {
       addNotification("Mật khẩu không khớp!", "error");
       return;

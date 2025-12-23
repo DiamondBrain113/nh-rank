@@ -54,7 +54,7 @@ const UserSchema = new Schema<IUser>(
     },
     avatarUrl: {
       type: String,
-      default: "",
+      default: "https://bluemoji.io/cdn-proxy/646218c67da47160c64a84d5/66b3e2b30608f3f68caf31d3_94.png",
       validate: {
         validator: (v: string) => !v || /^https?:\/\//.test(v),
         message: "Avatar URL không hợp lệ",
