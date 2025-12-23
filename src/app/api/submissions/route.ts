@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import dbConnect from "@/lib/mongoose";
-import { Submission, Problem } from "@/models";
+import { Submission, Problem, User } from "@/models";
 
 const JUDGE0_URL = process.env.JUDGE0_URL;
 const RAPIDAPI_KEY = process.env.JUDGE0_RAPIDAPI_KEY!;
@@ -231,6 +231,16 @@ async function submitSubmission(
     status = "RE";
   } else {
     status = "WA";
+  }
+
+  if (status === "AC") {
+    const filter = { problemId: problemId, userId: userId, status: "AC" };
+    const isPassed = await Submission.findOne(filter);
+    if (!isPassed) {
+      await User.findByIdAndUpdate(userId, {
+        $inc: { totalPoint: problem.point },
+      });
+    }
   }
 
   const newSub = await Submission.create({
